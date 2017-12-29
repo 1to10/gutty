@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff'),
+         url('fonts/roboto-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/roboto-regular-webfont.eot');
+    src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('fonts/roboto-medium-webfont.eot');
+    src: url('fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('fonts/roboto-medium-webfont.woff') format('woff'),
+         url('fonts/roboto-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium-Thin';
+    src: url('fonts/TitilliumWeb-Thin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumWeb-Thin.woff') format('woff'),
+         url('fonts/TitilliumWeb-Thin.ttf') format('truetype'),
+         url('fonts/TitilliumWeb-Thin.svg#TitilliumWeb-Thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium-Light';
+    src: url('fonts/TitilliumWeb-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumWeb-Light.woff') format('woff'),
+         url('fonts/TitilliumWeb-Light.ttf') format('truetype'),
+         url('fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium-Regular';
+    src: url('fonts/TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumWeb-Regular.woff') format('woff'),
+         url('fonts/TitilliumWeb-Regular.ttf') format('truetype'),
+         url('fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium-SemiBold';
+    src: url('fonts/TitilliumWeb-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/TitilliumWeb-SemiBold.woff') format('woff'),
+       url('fonts/TitilliumWeb-SemiBold.ttf') format('truetype'),
+       url('fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium-Bold';
+    src: url('fonts/TitilliumWeb-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/TitilliumWeb-Bold.woff') format('woff'),
+       url('fonts/TitilliumWeb-Bold.ttf') format('truetype'), url('fonts/TitilliumWeb-Bold.svg#TitilliumWeb-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lato-Light.woff') format('woff'),
+         url('fonts/Lato-Light.ttf') format('truetype'),
+         url('fonts/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Lato-Regular.woff') format('woff'),
+       url('fonts/Lato-Regular.ttf') format('truetype'),
+       url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('fonts/lato-medium.woff2') format('woff2'),
+         url('fonts/lato-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,115 @@
+.video {
+    border: 1px solid rgba(255,255,255,0.19);
+    position: relative;
+    overflow: hidden;
+    img, video {
+        display: block;
+        width: 100%;
+    }
+    .video-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 75px;
+        background: rgba(0,0,0,0.6);
+        .heading {
+            font-family: $Lato-Light;
+            text-transform: uppercase;
+            font-size: 24px;
+            color: #fff;
+            line-height: 34px;
+            span {
+                font-size: 30px;
+                font-weight: bold;
+                display: block;
+            }
+        }
+        p {
+            color: #fff;
+            font-family: $Regular;
+            font-size: 13px;
+            display: inline-block;
+        }
+        .play-button {
+            display: block;
+            width: 76px;
+            height: 76px;
+            border: 3px solid #fff;
+            position: relative;
+            margin: 20px auto 0;
+            cursor: pointer;
+            @include transition;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 0;
+                border-left: 22px solid #fff;
+                border-top: 16px solid transparent;
+                border-bottom: 16px solid transparent;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 5px;
+                margin: auto;
+                @include transition;
+            }
+            &:hover {
+                border-color: #da251c;
+            }
+            &:hover::after {
+                border-left-color: #da251c;
+            }
+        }
+    }
+    .video-more {
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        bottom: -150px;
+        right: -150px;
+        margin: auto;
+        /*display: none;*/
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 4px;
+        a {
+            color: #fff;
+            background: rgba(0,0,0,0.7);
+            line-height: 24px;
+            display: block;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            padding: 26px 20px;
+            font-size: 16px;
+            @include transition;
+            &:hover {
+                background: rgba(218,37,28,0.8);
+            }
+        }
+    }
+    .button {
+        a {
+            border: 1px solid #fff;
+            color: #fff;
+            span {
+                border-right-color: #fff;
+                &:before {
+                    background: #fff;
+                }
+                &:after {
+                    border-color: #fff;
+                }
+            }
+        }
+    }
+}
